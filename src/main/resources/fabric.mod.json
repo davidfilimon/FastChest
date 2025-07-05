@@ -19,6 +19,9 @@
 
   "environment": "client",
   "entrypoints": {
+    "client": [
+      "re.domi.fastchest.client.FastChestClient"
+    ],
     "modmenu": [
       "re.domi.fastchest.config.ModMenuImpl"
     ]
